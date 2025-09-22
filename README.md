@@ -1,6 +1,4 @@
 
-
-````markdown
 # Jyothi Kudipudi - Personal Developer Portfolio
 
 This is my **personal developer portfolio** built with **React** and **Vite**, showcasing my projects, skills, and experience in Full-Stack Development and Cloud Computing.
@@ -82,4 +80,4 @@ npm run build
 
 This project is open-source and available for personal and professional showcase.
 
-```
+
