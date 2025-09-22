@@ -20,7 +20,7 @@ const FloatingResumeButton = () => {
 
     return (
         <motion.a
-            href="https://drive.google.com/file/d/1vL-z1ys33zv8rQINuaelSDSEBnHwEi13/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1Lg90KePNEMgJDNRo-S-DYoGICvh5iaSk/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             initial={false}
