@@ -24,10 +24,10 @@ const Home = () => {
       {/* Centered content */}
       <div className="relative z-10 text-center text-white px-6">
         <h1 className="text-5xl font-bold mb-4">
-            <span className="text-white-400 animate-pulse">Hello!</span> <br />
-          I'm <span className="text-blue-400">JYOTHI Kudipudi</span>, <br />
+            <span className="text-white-400 animate-pulse">こんにちは!</span> <br />
+          私は <span className="text-blue-400">ジョーティ・クディプディ</span>, <br />
           <Typewriter
-            words={["FullStack Developer","AWS Cloud Developer", "Coder"]}
+            words={["フルスタック開発者",   "AWSクラウド開発者",  "コーダー"]}
             loop={true}
             cursor
             cursorStyle="|"
@@ -37,9 +37,10 @@ const Home = () => {
           />
         </h1>
         <p className="text-xl font-medium mt-4">
-          An aspiring Computer Science graduate, <br  /> 
-Driven to create innovative and impactful  
-Digital Experiences.  
+          コンピュータサイエンスを専攻する卒業見込み者、<br />
+革新的で影響力のある<br />
+デジタル体験の創造に情熱を注ぐ。
+ 
 
         </p>
       </div>

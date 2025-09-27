@@ -11,8 +11,8 @@ const hoverColors = {
 
 const infoBoxes = [
     {
-        title: "B.Tech. Student",
-        subtitle: "4th Year",
+        title:"B.Tech.の学生",
+        subtitle: "4年生" ,
         delay: 0.2,
     },
     {
@@ -64,8 +64,8 @@ const About = () => {
                                 transition={{ duration: 0.6, ease: "easeOut" }}
                                 viewport={{ once: true }}
                             >
-                                About{" "}
-                                <span className="text-blue-400">Me</span>
+                                自己 {" "}
+                                <span className="text-blue-400"> 紹介</span>
                             </motion.h1>
 
                             {/* blue underline */}
@@ -88,11 +88,12 @@ const About = () => {
                                 transition={{ duration: 0.6, delay: 0.3 }}
                                 viewport={{ once: true }}
                             >
-                             <strong>Hello! I'm JYOTHI Kudipudi</strong>,  
-       a Computer Science Engineering student who is very interested in software development and problem-solving.  
-     I have practical experience with Java, Spring Boot, React, and AWS Cloud. I’m working on projects that use these skills.  
-    I enjoy learning new technologies, applying them to real problems, and working with teams to create useful and reliable applications.  
-      My goal is to grow as a developer and create solutions that have a positive impact.
+                             こんにちは！私は<strong>ジョーティ・クディプディ</strong>です。<br />
+コンピュータサイエンス工学を専攻しており、ソフトウェア開発と問題解決に強い関心を持っています。<br />
+Java、Spring Boot、React、AWSクラウドを使用した実践的な経験があります。これらのスキルを活かしたプロジェクトにも取り組んでいます。<br />
+新しい技術を学び、実際の問題に応用し、チームと協力して役立つ信頼性の高いアプリケーションを作ることを楽しんでいます。<br />
+私の目標は、開発者として成長し、ポジティブな影響を与えるソリューションを生み出すことです。
+
                             </motion.p>
 
                             {/* Info Boxes */}

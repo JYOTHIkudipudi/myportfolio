@@ -97,8 +97,8 @@ const Skills = () => {
                         transition={{ duration: 0.6, ease: "easeOut" }}
                         viewport={{ once: true }}
                     >
-                        Skills &{" "}
-                        <span className="text-blue-400">Technologies</span>
+                        スキル &{" "}
+                        <span className="text-blue-400">技術</span>
                     </motion.h1>
                     <motion.span
                         className="h-1 bg-blue-400"

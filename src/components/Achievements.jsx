@@ -211,7 +211,7 @@ case "Achievements":
           transition={{ duration: 0.6, ease: "easeOut" }}
           viewport={{ once: true }}
         >
-          Certifications & <span className="text-blue-400">Achievements</span>
+          認定資格 &<span className="text-blue-400">実績</span>
         </motion.h1>
 
         <motion.span

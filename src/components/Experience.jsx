@@ -65,7 +65,7 @@ const Experience = () => {
               transition={{ duration: 0.6, ease: "easeOut" }}
               viewport={{ once: true }}
             >
-              Internships <span className="text-blue-500">(Work Experience)</span>
+               インターンシップ<span className="text-blue-500">(職務経験)</span>
             </motion.h1>
             <motion.span
               className="h-1 bg-blue-500"

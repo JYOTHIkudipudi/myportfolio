@@ -39,7 +39,7 @@ const Contact = () => {
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     viewport={{ once: true }}
                 >
-                    Get In <span className="text-blue-400">Touch</span>
+                    お<span className="text-blue-400">問い合わせ</span>
                 </motion.h1>
                 <motion.span
                     className="h-1 bg-blue-400"
@@ -68,7 +68,7 @@ const Contact = () => {
                     transition={{ duration: 0.3, delay: 0.2 }}
                     viewport={{ once: true }}
                 >
-                   Let's Connect
+                  つながりましょう
                 </motion.a>
                 <motion.div
                     className="flex flex-wrap justify-center items-center mt-4 gap-4 sm:gap-6"

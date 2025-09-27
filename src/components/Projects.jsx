@@ -2,8 +2,8 @@ import React from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import projectAWS from "../assets/aws-automation.png"; // Placeholder, update later
-import projectFood from "../assets/food-ordering.png"; // Placeholder, update later
-import projectCloud from "../assets/cloud-bridge.png"; // Placeholder, update later
+import project2 from "../assets/projectMaintenance.png"; // Placeholder, update later
+import port from "../assets/portfoilo.png"; // Placeholder, update later
 
 const projectsData = [
     {
@@ -17,23 +17,25 @@ const projectsData = [
     },
 
     {
-        img: projectFood,
-        title: "Food Ordering Website",
-        description: `Developed a scalable full-stack food ordering platform with React, Node.js, and MongoDB, integrating secure user authentication and seamless payment workflow.`,
-        services: "React • Node.js • MongoDB • AWS",
-        liveDemo: "#", // Add live demo link if available
-        repo: "https://github.com/JYOTHIkudipudi/FoodOrdering-Website",
-        overlayColor: "blue-400",
+        img: project2,
+title: "Smart Maintenance Tracker",
+description: `Developed a real-time device monitoring and maintenance dashboard using Java, Spring Boot, and React. Features include live alerts, device management for Apple, Windows, sensors, and servers, along with exportable reports.`,
+services: "Java • Spring Boot • React • AWS",
+liveDemo: "",
+repo: "https://github.com/JYOTHIkudipudi/SmartMaintenanceTracker",
+overlayColor: "blue-400"
+
     },
 
     {
-        img: projectCloud,
-        title: "Cloud Bridge – Real-Time Emergency Alert System",
-        description: `Developing a real-time cloud-based emergency alert system connecting civilians with rescue authorities. Implemented live SOS alerts using AWS SMS and email services.`,
-        services: "React.js • Node.js • MongoDB • AWS",
-        liveDemo: "#", // Add live demo link if available
-        repo: "https://github.com/JYOTHIkudipudi/CloudBridge",
-        overlayColor: "blue-400",
+        img: port,  // Replace with the image variable for your portfolio project
+title: "Portfolio",
+description: `Showcasing my completed projects, skills, and work experience. Developed using React, Node.js, MongoDB, Java, Spring Boot, and AWS Cloud. Features include live project demos, dashboards, and automated alerts.`,
+services: "React • Node.js • MongoDB • Java • Spring Boot • AWS",
+liveDemo: "", 
+repo: "https://github.com/JYOTHIkudipudi/my-portfoilo", // Or portfolio repo
+overlayColor: "blue-400"
+
     },
 ];
 
@@ -52,8 +54,8 @@ const Projects = () => {
                         transition={{ duration: 0.6, ease: "easeOut" }}
                         viewport={{ once: true }}
                     >
-                        Some things{" "}
-                        <span className="text-blue-400">I've Built</span>
+                        私の{" "}
+                        <span className="text-blue-400">制作物</span>
                     </motion.h1>
 
                     <motion.span
