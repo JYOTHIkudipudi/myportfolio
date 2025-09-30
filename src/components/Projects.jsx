@@ -17,12 +17,11 @@ const projectsData = [
     },
 
     {
-        img: projectFood,
-        title: "Food Ordering Website",
-        description: `Developed a scalable full-stack food ordering platform with React, Node.js, and MongoDB, integrating secure user authentication and seamless payment workflow.`,
-        services: "React • Node.js • MongoDB • AWS",
+        img: Testing,
+        title: "Automated Testing Framework for Web Applications",
+    description: `Developed a robust automated testing framework using Python, Selenium, and PyTest for a multi-module web application, creating 50+ automated UI test cases and integrating with CI/CD pipelines for continuous testing and reporting.`,
+    services: "Python • Selenium • PyTest • CI/CD",
         liveDemo: "#", // Add live demo link if available
-        repo: "https://github.com/JYOTHIkudipudi/FoodOrdering-Website",
         overlayColor: "blue-400",
     },
 
