@@ -17,12 +17,13 @@ const projectsData = [
     },
 
     {
-        img: Testing,
-        title: "Automated Testing Framework for Web Applications",
-    description: `Developed a robust automated testing framework using Python, Selenium, and PyTest for a multi-module web application, creating 50+ automated UI test cases and integrating with CI/CD pipelines for continuous testing and reporting.`,
-    services: "Python • Selenium • PyTest • CI/CD",
-        liveDemo: "#", // Add live demo link if available
-        overlayColor: "blue-400",
+       img: projectFood,
+title: "Online Food Ordering Website",
+liveDemo: "#",
+description: `Developed a full-stack online food ordering platform using HTML, CSS, JavaScript, Bootstrap, ExpressJS, and MySQL. Implemented features like user registration/login, restaurant and menu browsing, cart and checkout process, and order management. Designed a responsive frontend with Bootstrap and built RESTful APIs in ExpressJS connected to a MySQL database for secure data handling.`,
+services: "HTML • CSS • JavaScript • Bootstrap • ExpressJS • MySQL",
+overlayColor: "blue-400",
+
     },
 
     {
